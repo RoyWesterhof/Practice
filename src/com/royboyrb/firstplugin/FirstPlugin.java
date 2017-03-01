@@ -21,11 +21,4 @@ public class FirstPlugin extends JavaPlugin {
 	public void onDisable(){
 		getLogger().info("FirstPlugin is disabled!");
 	}
-
-	/* /teleport iemand iemand				 jij		teleport->tp-(/)teleport		iemand, iemand
-	public boolean onCommand(CommandSender theSender, Command cmd, String commandLabel, String[] args)
-														does things with the commands
-																	the command itself
-																						the things after the command*/
-
 }
