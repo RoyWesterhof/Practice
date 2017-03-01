@@ -1,0 +1,13 @@
+name: FirstPlugin
+version: 1.0
+main: com.royboyrb.firstplugin.FirstPlugin
+description: first testing plugin.
+
+commands:
+  hello:
+    description: Tells you Hello:)!
+    usage: |
+      /hello - Sends hello message
+      /hello sir - Sends hello sir message
+  teleportrandom:
+    description: Teleports you to a random location!
